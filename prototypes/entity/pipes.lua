@@ -1,5 +1,5 @@
-local icon_path = "__matts-logistics__/graphics/icons/"
-local sprite_path = "__matts-logistics__/graphics/entity/"
+local icon_path = "__matts-logistics-updated__/graphics/icons/"
+local sprite_path = "__matts-logistics-updated__/graphics/entity/"
 
 local function makePipe(name, distance)
     local pipe = table.deepcopy(data.raw["pipe-to-ground"]["pipe-to-ground"])

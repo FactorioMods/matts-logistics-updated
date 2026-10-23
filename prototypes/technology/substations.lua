@@ -1,4 +1,4 @@
-local graphics_path = "__matts-logistics__/graphics/technology/"
+local graphics_path = "__matts-logistics-updated__/graphics/technology/"
 
 data:extend(
 {

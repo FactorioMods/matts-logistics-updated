@@ -1,3 +1,11 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2026-10-23
+  Compatibility:
+    - Declare Factorio 2.1 compatibility.
+    - Migrate fluid crafting recipes to the 2.1 categories format.
+    - Use the updated Matt's Library fork.
+
 Version: 0.1.2
 Date: 09.04.2025
   Bugfixes:
