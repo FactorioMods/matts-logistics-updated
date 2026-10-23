@@ -1,9 +1,20 @@
-# Factorio 2.1 update
+# Factorio 2.1 notes
 
-- Declare Factorio 2.1 compatibility.
-- Migrate fluid crafting recipes to the 2.1 categories format.
-- Use the updated Matt's Library fork.
+Tested with **Factorio 2.1.23**. Current fork version: **1.0.2**.
 
-Validated with Factorio 2.1.23 in an isolated full-mod environment: fresh map creation, copied-save upgrade and 1,800 simulation ticks. Combined feature checks covered production by all five advanced assembler tiers, science chest refill, nine loader variants, underground-belt build events and disabled robot charging. These checks do not establish full multiplayer or optional-overhaul compatibility.
+## Changes
 
-Additional checks passed: a migrated save reloaded for 1,800 ticks after removing the Black Market bridge; Even Distribution replaced real furnace fuel; Max Rate Calculator processed an assembler selection; Black Market constructed its main and item-selection windows. The furnace legacy option generated the converted smelting recipes with category lists. Interaction checks used temporary private test hooks, excluded from the distributed ZIPs.
+- Updated fluid-recipe category lists and the Matt’s Library dependency.
+- Removed ignored prototype fields.
+
+## Tests
+
+- Five belt tiers transferred items.
+- Four underground-pipe tiers transferred fluid across a 20-tile gap.
+- Both upgraded substations powered a working assembler; results survived restart/rejoin.
+
+Tests cover the installed tiers and profile, not every possible settings combination.
+
+Tests used private copies of saves and local host/client sessions. Raw player data and test hooks are not shipped.
+
+The 1.0.2 patch repairs changelog formatting and version metadata only. Gameplay files are unchanged.

@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.2
+Date: 2026-10-24
+  Bugfixes:
+    - Fix in-game changelog parsing.
+    - Keep original version history in docs/UPSTREAM-CHANGELOG.txt.
+
+---------------------------------------------------------------------------------------------------
 Version: 1.0.1
 Date: 2026-10-23
   Compatibility:
@@ -11,18 +18,3 @@ Date: 2026-10-23
     - Declare Factorio 2.1 compatibility.
     - Migrate fluid crafting recipes to the 2.1 categories format.
     - Use the updated Matt's Library fork.
-
-Version: 0.1.2
-Date: 09.04.2025
-  Bugfixes:
-    - Fixed not being able to upgrade vanilla belts to the new tiers
----------------------------------------------------------------------------------------------------
-Version: 0.1.1
-Date: 09.02.2025
-  Bugfixes:
-    - Fixed wire distance and supply area for substation mk3
----------------------------------------------------------------------------------------------------
-Version: 0.1.0
-Date: 02.02.2025
-  General:
-    - Mod release

@@ -1,11 +1,18 @@
 # Matt's Logistics: Updated
 
-Factorio 2.1 update of Matt's Logistics. Original author: CG-Matt. A mod which adds new transport belts, underground pipes and substations.
-All categories are individually toggleable via mod settings.
-The transport belts were inspired by 'Ultimate Belts_Owoshima_And_Pankeko-Mod'.
-The longer underground pipes were inspired by 'DistancePlus'.
-The larger supply area substations were inspired by 'Advanced Substation'.
+Additional belt tiers, long underground pipes and larger substations.
 
-Disable the original mod before enabling this fork. Entity, item, recipe and startup setting names are retained. Mod-private runtime state belongs to the old mod identity; per-player transient UI/distribution state is rebuilt.
+**Factorio 2.1 · Version 1.0.2**
 
-See [Factorio 2.1 changes and validation](FACTORIO-2.1.md) and [original credits and license](ATTRIBUTION.md).
+- Belts, pipes and substations can be enabled separately in startup settings.
+- Uses the updated Matt’s Library.
+
+## Installation
+
+Disable matts-logistics before enabling this fork, and install matts-lib-updated. Multiplayer peers need matching startup settings.
+
+[Mod Portal](https://mods.factorio.com/mod/matts-logistics-updated) · [Downloads](https://github.com/FactorioMods/matts-logistics-updated/releases) · [Tests and 2.1 changes](FACTORIO-2.1.md)
+
+## Credits
+
+Original mod by CG-Matt. Belts were inspired by Ultimate Belts_Owoshima_And_Pankeko-Mod, pipes by DistancePlus, and substations by Advanced Substation. [License and credits](ATTRIBUTION.md).
