@@ -205,7 +205,7 @@ data:extend(
             { type = "item", name = "ultra-express-splitter", amount = 1 },
             { type = "item", name = "iron-gear-wheel", amount = 50 },
             { type = "item", name = "low-density-structure", amount = 20 },
-            { type = "item", name = "processing-unit", amount = 30, alternative = "advanced-processing-unit" },
+            { type = "item", name = "processing-unit", amount = 30 },
             { type = "item", name = "speed-module-2", amount = 1 },
             { type = "fluid", name = "lubricant", amount = 100 }
         },
