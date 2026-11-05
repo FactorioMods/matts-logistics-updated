@@ -1,9 +1,24 @@
-![Mod Thumbnail](/thumbnail.png)
+# Matt's Logistics: Updated
 
-# Matt's Logistics
+Additional belt tiers, longer underground pipes and larger substations from Matt's Logistics.
 
-A mod which adds new transport belts, underground pipes and substations.    
-All categories are individually toggleable via mod settings.    
-The transport belts were inspired by [Ultimate Belts_Owoshima_And_Pankeko-Mod](https://mods.factorio.com/mod/UltimateBelts_Owoshima_And_Pankeko-Mod).   
-The longer underground pipes were inspired by [DistancePlus](https://mods.factorio.com/mod/DistancePlus).   
-The larger supply area substations were inspired by [Advanced Substation](https://mods.factorio.com/mod/AdvancedSubstation).
+**Factorio 2.1 · Version 1.0.4**
+
+## Fork changes
+
+- With Space Age and transport belts enabled, vanilla turbo belts, underground belts and splitters can be crafted on any surface in assembling machines 2 and 3 and compatible fluid-capable modded assemblers; foundries remain supported.
+- Supports Factorio 2.1 with original Matt's Library 0.7.0 or later, based on Matt's Logistics 0.2.0.
+
+The three turbo recipes keep their original ingredients, products, crafting times and research unlocks, including tungsten plates and lubricant. Disabling the transport-belts setting leaves the vanilla turbo restrictions in place. Base-game belts, pipes and substations retain their separate startup switches.
+
+## Installation and compatibility
+
+Requires Factorio 2.1.23+. Disable `matts-logistics` before enabling this fork. Install original `matts-lib` 0.7.0 or later; when upgrading an older fork setup, disable `matts-lib-updated` and enable the original library.
+
+Deadlock beltbox/loader tier registration remains disabled, following upstream. Miniloader Redux integration is separate and remains supported. Other mods can impose additional recipe or machine restrictions.
+
+[Mod Portal](https://mods.factorio.com/mod/matts-logistics-updated) · [Source](https://github.com/FactorioMods/matts-logistics-updated) · [Downloads](https://github.com/FactorioMods/matts-logistics-updated/releases) · [Validation](FACTORIO-2.1.md)
+
+## Credits
+
+Original mod by CG-Matt, inspired by Ultimate Belts_Owoshima_And_Pankeko-Mod, DistancePlus and Advanced Substation. Maintained by johnmart19 / FactorioMods. [MIT license](LICENSE) · [Attribution](ATTRIBUTION.md).
