@@ -1,21 +1,36 @@
-Version: 0.2.0
-Date: 25.10.2026
+---------------------------------------------------------------------------------------------------
+Version: 1.0.4
+Date: 2026-11-05
   Compatibility:
-    - Updated to Factorio version 2.1
-    - Updated minimum required Matt's Library version to 0.7.0.
-    - Temporarily disabled Deadlock's Stacking Beltboxes & Compact Loaders integration pending a Factorio 2.1 update and compatibility testing.
+    - Rebase on original Matt's Logistics 0.2.0, retaining turbo assembler crafting.
+    - Keep upstream's Deadlock beltbox/loader integration disabled pending Factorio 2.1 compatibility testing. Miniloader Redux is unaffected.
+
 ---------------------------------------------------------------------------------------------------
-Version: 0.1.2
-Date: 09.04.2025
+Version: 1.0.3
+Date: 2026-11-05
+  Features:
+    - Allow vanilla turbo belts, underground belts and splitters in fluid-capable assemblers when transport belts are enabled. Foundries remain supported.
+    - Remove the Vulcanus-only crafting restriction from these three recipes, preserving ingredients, crafting times and research unlocks.
+  Compatibility:
+    - Use the maintained original Matt's Library 0.7.0 or later instead of the library fork.
+
+---------------------------------------------------------------------------------------------------
+Version: 1.0.2
+Date: 2026-10-24
   Bugfixes:
-    - Fixed not being able to upgrade vanilla belts to the new tiers
+    - Fix in-game changelog parsing.
+    - Keep original version history in docs/UPSTREAM-CHANGELOG.txt.
+
 ---------------------------------------------------------------------------------------------------
-Version: 0.1.1
-Date: 09.02.2025
-  Bugfixes:
-    - Fixed wire distance and supply area for substation mk3
+Version: 1.0.1
+Date: 2026-10-23
+  Compatibility:
+    - Remove obsolete prototype fields ignored by Factorio 2.1, preserving current recipes and balance.
+
 ---------------------------------------------------------------------------------------------------
-Version: 0.1.0
-Date: 02.02.2025
-  General:
-    - Mod release
+Version: 1.0.0
+Date: 2026-10-23
+  Compatibility:
+    - Declare Factorio 2.1 compatibility.
+    - Migrate fluid crafting recipes to the 2.1 categories format.
+    - Use the updated Matt's Library fork.

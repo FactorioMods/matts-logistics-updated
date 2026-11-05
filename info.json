@@ -1,16 +1,16 @@
 {
-	"name": "matts-logistics",
-	"version": "0.2.0",
-	"title": "Matt's Logistics",
-	"author": "CG-Matt",
-	"homepage": "https://mods.factorio.com/mod/matts-logistics",
-	"description": "A mod which adds new transport belts, underground pipes and substations.\nAll categories are individually toggleable via mod settings.\nThe transport belts were inspired by 'Ultimate Belts_Owoshima_And_Pankeko-Mod'.\nThe longer underground pipes were inspired by 'DistancePlus'.\nThe larger supply area substations were inspired by 'Advanced Substation'.",
-	"factorio_version": "2.1",
-	"dependencies":
-	[
-		"base >= 2.1",
-		"matts-lib >= 0.7.0",
-		"? space-age",
-		"? deadlock-beltboxes-loaders"
-	]
+  "name": "matts-logistics-updated",
+  "version": "1.0.4",
+  "title": "Matt's Logistics: Updated",
+  "author": "CG-Matt (original); johnmart19 / FactorioMods (2.1 fork)",
+  "homepage": "https://github.com/FactorioMods/matts-logistics-updated",
+  "description": "Additional belt tiers, long underground pipes and larger substations. With Space Age, vanilla turbo belts, underground belts and splitters can also be crafted in fluid-capable assemblers without a planet restriction. Belts, pipes and substations can be enabled separately in startup settings. Original mod by CG-Matt.",
+  "factorio_version": "2.1",
+  "dependencies": [
+    "base >= 2.1.23",
+    "matts-lib >= 0.7.0",
+    "? space-age",
+    "? deadlock-beltboxes-loaders",
+    "! matts-logistics"
+  ]
 }

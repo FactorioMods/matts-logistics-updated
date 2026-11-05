@@ -1,4 +1,4 @@
-local icon_path = "__matts-logistics__/graphics/icons/"
+local icon_path = "__matts-logistics-updated__/graphics/icons/"
 local item_sounds = require("__base__.prototypes.item_sounds")
 
 local function transport_belt(tier, order)

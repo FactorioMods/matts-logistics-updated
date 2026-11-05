@@ -1,4 +1,4 @@
-local icon_path = "__matts-logistics__/graphics/technology/"
+local icon_path = "__matts-logistics-updated__/graphics/technology/"
 local entry_prerequisites = {}
 local science_packs = {}
 

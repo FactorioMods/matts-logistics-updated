@@ -1,4 +1,4 @@
-local icon_path = "__matts-logistics__/graphics/icons/"
+local icon_path = "__matts-logistics-updated__/graphics/icons/"
 
 local ss2 = table.deepcopy(data.raw.item["substation"])
 
