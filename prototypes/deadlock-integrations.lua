@@ -146,7 +146,8 @@ if settings.startup["deadlock-enable-beltboxes"].value == true then
     end
 
     -- Set next_upgrade for all beltboxes
-    data.raw.furnace["express-transport-belt-beltbox"].next_upgrade = "ultra-fast-transport-belt-beltbox"
+    local preceding_beltbox = mods["space-age"] and "turbo-transport-belt-beltbox" or "express-transport-belt-beltbox"
+    data.raw.furnace[preceding_beltbox].next_upgrade = "ultra-fast-transport-belt-beltbox"
     data.raw.furnace["ultra-fast-transport-belt-beltbox"].next_upgrade = "extreme-fast-transport-belt-beltbox"
     data.raw.furnace["extreme-fast-transport-belt-beltbox"].next_upgrade = "ultra-express-transport-belt-beltbox"
     data.raw.furnace["ultra-express-transport-belt-beltbox"].next_upgrade = "extreme-express-transport-belt-beltbox"
@@ -174,7 +175,8 @@ if settings.startup["deadlock-enable-loaders"].value == true then
     end
 
     -- Set next_upgrade for all loaders 
-    data.raw["loader-1x1"]["express-transport-belt-loader"].next_upgrade = "ultra-fast-transport-belt-loader"
+    local preceding_loader = mods["space-age"] and "turbo-transport-belt-loader" or "express-transport-belt-loader"
+    data.raw["loader-1x1"][preceding_loader].next_upgrade = "ultra-fast-transport-belt-loader"
     data.raw["loader-1x1"]["ultra-fast-transport-belt-loader"].next_upgrade = "extreme-fast-transport-belt-loader"
     data.raw["loader-1x1"]["extreme-fast-transport-belt-loader"].next_upgrade = "ultra-express-transport-belt-loader"
     data.raw["loader-1x1"]["ultra-express-transport-belt-loader"].next_upgrade = "extreme-express-transport-belt-loader"

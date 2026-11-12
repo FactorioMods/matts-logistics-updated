@@ -1,12 +1,27 @@
 # Factorio 2.1 notes
 
-Current fork version: **1.0.4**, based on original Matt's Logistics **0.2.0** with Matt's Library **0.7.0**.
+Current fork version: **1.0.5**, based on original Matt's Logistics **0.2.0** with Matt's Library **0.7.0**.
 
 ## Upstream compatibility
 
-Retains the fork's turbo crafting changes and adopts upstream's disabled Deadlock beltbox/loader tier registration. Miniloader Redux integration remains supported.
+Retains the fork's turbo crafting changes and restores the original five optional Deadlock loader/beltbox tiers. Miniloader Redux integration remains separate and supported.
 
-Version 1.0.4 passed native turbo production, recipe/research comparisons, base-only loading and all eight feature-setting combinations in Factorio 2.1.24 headless checks. Only the three turbo recipes differ from the original recipe and technology definitions. A guarded Deadlock test confirmed that disabled registration is not called.
+## Optional Deadlock integration
+
+Compatible providers may use the original `deadlock-beltboxes-loaders` ID or the `deadlock-beltboxes-loaders-factorio21` successor ID. Optional dependencies establish load order. All five additional tier names, recipes, research and artwork remain unchanged. With Space Age, Express upgrades to Turbo, then Ultra Fast; without Space Age, Express upgrades directly to Ultra Fast. The provider's independent loader/beltbox switches and Matt's transport-belts switch are respected.
+
+Native Factorio 2.1.24 headless checks covered all nine tiers with Space Age:
+
+- 144 player placements covering four rotations and belt/chest adjacency snapping.
+- 36 physical input/output transfer layouts, each moving 20 rare iron plates through rare loaders and belts into the destination chest.
+- 18 powered rare beltboxes, stacking and unstacking on every tier with the actual configured recipe inputs and outputs.
+- 72 real construction-robot builds from four rotations and two mirrored variants of nine-tier blueprints.
+- Five quality-aware auto-unstack mining cases, including conservation of mixed fish, bioflux and spoilage inventory.
+- Eight fresh-world variants: original/successor provider, loaders disabled, beltboxes disabled, both disabled, Matt's belts disabled, base without Space Age and no Deadlock provider.
+
+Native prototype migration metadata from an isolated older save retained the five additional tier entity, item, recipe and technology IDs rather than removing them. Raw copied saves, private fixtures and logs are kept outside this repository. These checks are headless functional checks; they do not claim new graphical or multiplayer validation.
+
+Version 1.0.4 separately passed turbo production, recipe/research comparisons, base-only loading and all eight Matt's feature-setting combinations. Its turbo crafting implementation is retained.
 
 ## Turbo crafting
 

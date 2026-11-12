@@ -6,11 +6,9 @@ if settings.startup["matts-logistics-transport-belts"].value == true then
     require("prototypes.entity.transport-belts")
     require("prototypes.technology.transport-belts")
 
-    -- Disabled pending a Factorio 2.1 update to Deadlock's Loaders
-    -- and compatibility testing before re-enabling integration.
-    -- if deadlock then
-    --     require("prototypes.deadlock-integrations")
-    -- end
+    if deadlock then
+        require("prototypes.deadlock-integrations")
+    end
 end
 
 if settings.startup["matts-logistics-longer-underground-pipes"].value == true then

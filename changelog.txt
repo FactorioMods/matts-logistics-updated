@@ -1,7 +1,10 @@
 ---------------------------------------------------------------------------------------------------
-Version: 1.0.4
-Date: 2026-11-05
+Version: 1.0.5
+Date: 2026-11-12
   Features:
+    - Restore the five optional Deadlock loader and beltbox tiers, with their existing item, recipe and research names, recipes and artwork.
+    - Retain the Space Age turbo tier in the loader and beltbox upgrade chains.
     - With Space Age and transport belts enabled, vanilla turbo belts, underground belts and splitters can be crafted on any surface in assembling machines 2 and 3 and compatible fluid-capable modded assemblers; foundries remain supported.
   Compatibility:
+    - Accept compatible original and Factorio 2.1 successor Deadlock providers; honor their independent loader and beltbox startup settings.
     - Supports Factorio 2.1 with original Matt's Library 0.7.0 or later, based on Matt's Logistics 0.2.0.

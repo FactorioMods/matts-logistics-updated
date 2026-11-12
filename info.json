@@ -1,16 +1,17 @@
 {
   "name": "matts-logistics-updated",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "title": "Matt's Logistics: Updated",
   "author": "CG-Matt (original); johnmart19 / FactorioMods (2.1 fork)",
   "homepage": "https://github.com/FactorioMods/matts-logistics-updated",
-  "description": "Additional belt tiers, long underground pipes and larger substations. With Space Age, vanilla turbo belts, underground belts and splitters can also be crafted in fluid-capable assemblers without a planet restriction. Belts, pipes and substations can be enabled separately in startup settings. Original mod by CG-Matt.",
+  "description": "Additional belt tiers, long underground pipes and larger substations. With Space Age, vanilla turbo belts, underground belts and splitters can also be crafted in fluid-capable assemblers without a planet restriction. Belts, pipes and substations can be enabled separately in startup settings. Original mod by CG-Matt. Optional compatible Deadlock integration retains the five additional loader and beltbox tiers.",
   "factorio_version": "2.1",
   "dependencies": [
     "base >= 2.1.23",
     "matts-lib >= 0.7.0",
     "? space-age",
     "? deadlock-beltboxes-loaders",
+    "? deadlock-beltboxes-loaders-factorio21",
     "! matts-logistics"
   ]
 }
